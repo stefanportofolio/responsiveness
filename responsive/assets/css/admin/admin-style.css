@@ -1,0 +1,32 @@
+.login-complete{
+	background-color: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
+@font-face{
+	font-family: walkwayUltraBold;
+	src:url(../../fonts/newfonts/walkway/WalkwayUltraBold.ttf);
+}
+.login-row{
+	margin-top: 20%;
+}
+.header-login{
+	background:#f45c58;
+	color: #ffffff;
+	padding-top: 3%;
+}
+.header-login h3{
+	vertical-align: middle;
+	font-family:walkwayUltraBold; 
+}
+.login-form{
+	width: 80%;
+	margin-bottom: 2%;
+	border-radius: 6px;
+}
+.login-button{
+	background: #23e26b;
+	color: #ffffff;
+	font-family:walkwayUltraBold; 
+}

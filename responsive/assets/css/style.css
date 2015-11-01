@@ -1,0 +1,137 @@
+.topbar{
+	background: #000000;
+}
+.topbar .navbar-header{
+	margin-left: 10%;
+}
+.carousel-control{
+	background:#fb9205;
+	height: 20%;
+	margin-top: 20%;
+}
+.navbar-inverse{
+	background: #434446;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: #ffffff;
+	font-style: bold;
+}
+.navi{
+	background:#434446;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background: #2a3634;
+	border-radius: 10px;
+
+
+}
+.navbar-header img{
+	width: 50%;
+	vertical-align: text-bottom;
+
+}
+.navbar-toggle{
+	color: #ffffff;
+	font-size: 20px;
+	float: left;
+}
+.fa .fa-bars{
+	color: #ffffff;
+	font-size: 25px;
+}
+body{
+	background: #f3f3f3;
+}
+
+.carousel-indicators i {
+	color: #ffffff;
+	background: #000000;
+	width: 40px;
+	height: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+/*properties*/
+.marketing_words{
+	text-align: center;
+}
+.marketing_words h2{
+	color: #7e8c8c;
+	font-style: bold;
+}
+.marketing_words p{
+	color: #7e8c8c;
+	font-style: bold;
+}
+
+.property{
+	border-radius:10px; 
+	background: #bbbbbb;
+	color: #808080;
+	width: 19%;
+	margin-right: 45px;
+	overflow: hidden;
+
+}
+.property-active{
+	background: #ffffff;!important
+}
+@media(min-width: 988px){
+	.navbar-header img{
+		width: initial;
+	}
+}
+@media(max-width: 988px){
+	.property{
+
+		width: initial;
+		margin-bottom: 10px;
+
+	}
+}
+
+.image1{
+	background-repeat: no-repeat;
+	background-image:url('../images/img-1.jpg');
+	text-align: right;
+	background-size: cover;
+	background-position: center;
+}
+.image2{
+	background-image:url('../images/img-2.jpg');
+	text-align: right;
+	background-repeat: no-repeat;
+}
+.image3{
+	background-image:url('../images/img-3.jpg');
+	text-align: right;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.image4{
+	background-image:url('../images/img-4.jpg');
+	text-align: right;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.services{
+	border-top: 1px solid #b3b3b3;
+	border-bottom: 1px solid #b3b3b3;
+
+}
+.price{
+	font-style: bold;
+	font-family: arial;
+	color: #fe8103;
+}
+
+/*end properties*/
+.footer{
+	text-align: center;
+	background: #434446;
+	color: #ffffff;
+}
+.footer i{
+	margin-right: 30px;
+}
+
